@@ -1,8 +1,8 @@
 name: Check Health of UT
 
 on:
-  push:
-    branches: [ master ]
+  schedule:
+    - cron: '*/15 * * * *'
 
 jobs:
   check_health_ut:
