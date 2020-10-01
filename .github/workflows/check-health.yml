@@ -6,8 +6,6 @@ on:
 
 jobs:
   check_health_ut:
-
-  ping_site:
     runs-on: ubuntu-latest
     name: Ping the site
     steps:
